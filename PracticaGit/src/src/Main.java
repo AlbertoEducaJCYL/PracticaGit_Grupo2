@@ -1,9 +1,10 @@
 package src;
 
-public class Main {
+import static src.PabloNogales.saludopablo;
 
+public class Main {
 	public static void main(String[] args) {
         System.out.println("Proyecto para practica Github");
-        //comentario prueba
+        PabloNogales.saludopablo();
     }
 }
